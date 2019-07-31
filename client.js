@@ -18,6 +18,7 @@ const connect = function() {
   conn.on('connect', () => {
     console.log('Successfully connected to game server');
     conn.write('Name: AK');
+    conn.write("Say: I'll destroy you");
     // const moveUp =  function() {
     //   conn.write('Move: up');
     // };
